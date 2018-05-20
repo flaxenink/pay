@@ -32,3 +32,7 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
+
+.button-secondary {
+  background-color: #489c79;
+}
