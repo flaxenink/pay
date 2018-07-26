@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="">
     <head>
-      <title>Pays</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pays</title>
+          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
   <body>
 
@@ -15,31 +17,53 @@
     <nav>
         <img src="img/pays.png" alt="Logo" />
           <ul class="navigation">
-            <li><a href="receipts.html">Recepits</a></li>
+            <li><a href="receipts.html">Receipts</a></li>
             <li><a href="payments.html">Payments</a></li>
           </ul>
     </nav>
+
         <p>This is where the payments will be at for your business needs!</p>
-          <div class="column-4"><!-- this will be the first column-->
-            <img src="img/card_1.png" alt="Work Sample 1" >
-            <h2>Pool Party</h2>
+          <div class="column-4 project"><!-- this will be the first column-->
+            <div class="project-preview">
+              <img src="img/card_1.png" alt="Work Sample 1" >
+              <h2>Pool Party</h2>
+            </div><!--closing preview-->
+              <p class="project-details">This is a description of my work sample!It is a great piece of design.</p>
           </div><!-- this will end the first column-->
 
-          <div class="column-4"><!-- this will be the second column-->
-            <img src="img/card_2.png" alt="Work Sample 2" >
-            <h2>Cars Repairs</h2>
+          <div class="column-4 project"><!-- this will be the second column-->
+              <div class="project-preview">
+                <img src="img/card_2.png" alt="Work Sample 2" >
+                <h2>Cars Repairs</h2>
+              </div>
+              <p class="project-details">This is a description of my work sample! It is a great piece of design.</p>
           </div><!-- this will end the second column-->
 
-          <div class="column-4"><!-- this will be the third column-->
-            <img src="img/card_3.png" alt="Work Sample 3" >
-            <h2>Target</h2>
+          <div class="column-4 project"><!-- this will be the third column-->
+            <div class="project-preview">
+              <img src="img/card_3.png" alt="Work Sample 3" >
+              <h2>Target</h2>
+            </div>
+              <p class="project-details">This is a description of my work sample! It is a great piece of design.</p>
           </div><!-- this will end the third column-->
 
-          <div class="column-4"><!-- this will be the fourth column-->
-            <img src="img/card_3.png" alt="Work Sample 4" >
-            <h2>Pool Party</h2>
+          <div class="column-4 project"><!-- this will be the fourth column-->
+            <div class="project-preview">
+              <img src="img/card_3.png" alt="Work Sample 4" >
+              <h2>Pool Party</h2>
+            </div>
+              <p class="project-details">This is a description of my work sample! It is a great piece of design.</p>
           </div><!-- this will end the fourth column-->
 </div><!-- this will close the container-->
 </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+
+<script src="js/script.js"> </script>
+
 </body>
 </html>
